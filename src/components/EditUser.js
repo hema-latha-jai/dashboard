@@ -39,7 +39,7 @@ function EditUser({users,setusers}) {
 
         }
 
-    },[])
+    },[users])
 
 
   return <>

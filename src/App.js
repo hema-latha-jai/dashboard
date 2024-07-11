@@ -5,12 +5,6 @@ import AddUser from "./components/AddUser";
 import EditUser from "./components/EditUser";
 import Details from "./components/Details/Details";
 
-import Accounts from "./components/Details/Accounts"
-import Payments from "./components/Details/Payments"
-import BillDetails from "./components/Details/BillDetails"
-import AdminProfile from "./components/AdminProfile"
-import ChangePassword from "./components/Details/ChangePassword"
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState} from "react";
 
