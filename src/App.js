@@ -3,7 +3,7 @@ import Dashboard from "./components/Dashboard";
 import Sidebar from "./components/Sidebar";
 import AddUser from "./components/AddUser";
 import EditUser from "./components/EditUser";
-import Details from "./components/Details/Details";
+import AdminProfile from "./components/AdminProfile";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState} from "react";
@@ -37,10 +37,10 @@ function App() {
                 <Route path="/adduser" element={<AddUser users={users} setusers={setusers} />} />
                 <Route path="/edituser/:id" element={<EditUser users={users} setusers={setusers} />} />
                 <Route path="/profile" element={<AdminProfile users={users} setusers={setusers} />} />
-                <Route path="/details"  element={<Details />} >
+                {/* <Route path="/details"  element={<Details />} >
 
 
-                </Route>
+                </Route> */}
 
                 <Route path="*"  element={<Navigate to="/dashboard/" />} />
               </Routes>
